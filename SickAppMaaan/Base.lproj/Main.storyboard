@@ -36,6 +36,14 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3s-VZ-z0q">
+                                <rect key="frame" x="16" y="372" width="288" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change View"/>
+                                <connections>
+                                    <segue destination="7Le-A8-dlm" kind="presentation" id="HyQ-5I-yjU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -47,6 +55,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-78.75" y="138.38028169014083"/>
+        </scene>
+        <!--New View Controller-->
+        <scene sceneID="Pgz-aB-T5Z">
+            <objects>
+                <viewController id="7Le-A8-dlm" customClass="NewViewController" customModule="SickAppMaaan" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5VJ-Tp-WeB"/>
+                        <viewControllerLayoutGuide type="bottom" id="x8Y-yk-yxw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hfo-L8-eAU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.037239109059999997" green="0.5" blue="0.090857112020000005" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CTV-xf-cwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="677" y="138"/>
         </scene>
     </scenes>
 </document>
