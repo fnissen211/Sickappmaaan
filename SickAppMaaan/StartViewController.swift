@@ -29,6 +29,7 @@ class StartViewController: UIViewController {
 
     @IBAction func changeColor(_ sender: Any) {
     
+        // Farve forandring
         if changeColorName.text == "Grey" {
     self.view.backgroundColor = UIColor.red
             changeColorName.text = "Red"
