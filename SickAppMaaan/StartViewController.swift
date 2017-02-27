@@ -11,6 +11,9 @@ import UIKit
 class StartViewController: UIViewController {
 
     
+    @IBOutlet weak var changeColorName: UILabel!
+    @IBOutlet weak var buttonName: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +27,19 @@ class StartViewController: UIViewController {
     }
     
 
+    @IBAction func changeColor(_ sender: Any) {
+    
+        if changeColorName.text == "Grey" {
+    self.view.backgroundColor = UIColor.red
+            changeColorName.text = "Red"
+            
+        } else {
+            self.view.backgroundColor = UIColor.gray
+            changeColorName.text = "Grey"
+        
+        }
+    
+    }
 
 
 }
