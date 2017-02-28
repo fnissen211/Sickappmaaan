@@ -85,7 +85,13 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Marcus" id="ZgB-m1-rEN"/>
+                                    <navigationItem title="Marcus" id="ZgB-m1-rEN">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" style="done" id="PR3-FC-qsI">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="4wj-Op-4lv"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -127,4 +133,7 @@
             <point key="canvasLocation" x="676.875" y="137.32394366197184"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="4wj-Op-4lv"/>
+    </inferredMetricsTieBreakers>
 </document>
