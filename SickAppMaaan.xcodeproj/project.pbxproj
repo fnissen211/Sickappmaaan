@@ -140,7 +140,7 @@
 				TargetAttributes = {
 					91E2DF251E64B5450065BFD1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Q8823V5Q2V;
+						DevelopmentTeam = 84LY758558;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -355,7 +355,7 @@
 			baseConfigurationReference = 9785C4815A34E315D1A34990 /* Pods-SickAppMaaan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Q8823V5Q2V;
+				DEVELOPMENT_TEAM = 84LY758558;
 				INFOPLIST_FILE = SickAppMaaan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nissenstudio.SickAppMaaan;
@@ -369,7 +369,7 @@
 			baseConfigurationReference = 6620C756924AF41ED65A7625 /* Pods-SickAppMaaan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Q8823V5Q2V;
+				DEVELOPMENT_TEAM = 84LY758558;
 				INFOPLIST_FILE = SickAppMaaan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nissenstudio.SickAppMaaan;
