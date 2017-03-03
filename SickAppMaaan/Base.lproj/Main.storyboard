@@ -56,6 +56,16 @@
                                     <segue destination="Q1T-du-ue9" kind="presentation" id="8xE-Tz-c0t"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIH-e5-Wce">
+                                <rect key="frame" x="109" y="230" width="120" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7Le-A8-dlm" kind="showDetail" id="h7J-Ox-2zz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -124,6 +134,11 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="IF8-AO-wjV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNr-Dj-7Im">
+                                <rect key="frame" x="241" y="246" width="46" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.037239109059999997" green="0.5" blue="0.090857112020000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -134,6 +149,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4wj-Op-4lv"/>
+        <segue reference="IF8-AO-wjV"/>
+        <segue reference="HyQ-5I-yjU"/>
     </inferredMetricsTieBreakers>
 </document>
