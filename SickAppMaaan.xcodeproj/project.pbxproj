@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		919C67891E69BEEF00709EC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 919C67881E69BEEF00709EC3 /* GoogleService-Info.plist */; };
 		91E2DF2A1E64B5450065BFD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2DF291E64B5450065BFD1 /* AppDelegate.swift */; };
 		91E2DF2F1E64B5450065BFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E2DF2D1E64B5450065BFD1 /* Main.storyboard */; };
 		91E2DF311E64B5450065BFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E2DF301E64B5450065BFD1 /* Assets.xcassets */; };
@@ -14,9 +15,13 @@
 		91E2DF3C1E64B6620065BFD1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2DF3B1E64B6620065BFD1 /* StartViewController.swift */; };
 		91E2DF3E1E64C1890065BFD1 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2DF3D1E64C1890065BFD1 /* NewViewController.swift */; };
 		91E2DF401E64CCF20065BFD1 /* marcusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2DF3F1E64CCF20065BFD1 /* marcusViewController.swift */; };
+		C69947EE9D806881FD565B34 /* Pods_SickAppMaaan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407EAF1CCF3658E61324CA06 /* Pods_SickAppMaaan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		407EAF1CCF3658E61324CA06 /* Pods_SickAppMaaan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SickAppMaaan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6620C756924AF41ED65A7625 /* Pods-SickAppMaaan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SickAppMaaan.release.xcconfig"; path = "Pods/Target Support Files/Pods-SickAppMaaan/Pods-SickAppMaaan.release.xcconfig"; sourceTree = "<group>"; };
+		919C67881E69BEEF00709EC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		91E2DF261E64B5450065BFD1 /* SickAppMaaan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SickAppMaaan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E2DF291E64B5450065BFD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91E2DF2E1E64B5450065BFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		91E2DF3B1E64B6620065BFD1 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		91E2DF3D1E64C1890065BFD1 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		91E2DF3F1E64CCF20065BFD1 /* marcusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = marcusViewController.swift; sourceTree = "<group>"; };
+		9785C4815A34E315D1A34990 /* Pods-SickAppMaaan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SickAppMaaan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SickAppMaaan/Pods-SickAppMaaan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69947EE9D806881FD565B34 /* Pods_SickAppMaaan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78611699805791D380C96128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9785C4815A34E315D1A34990 /* Pods-SickAppMaaan.debug.xcconfig */,
+				6620C756924AF41ED65A7625 /* Pods-SickAppMaaan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		91E2DF1D1E64B5450065BFD1 = {
 			isa = PBXGroup;
 			children = (
 				91E2DF281E64B5450065BFD1 /* SickAppMaaan */,
 				91E2DF271E64B5450065BFD1 /* Products */,
+				78611699805791D380C96128 /* Pods */,
+				D648E47606DD935C2636BC01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +82,7 @@
 				91E2DF301E64B5450065BFD1 /* Assets.xcassets */,
 				91E2DF321E64B5450065BFD1 /* LaunchScreen.storyboard */,
 				91E2DF351E64B5450065BFD1 /* Info.plist */,
+				919C67881E69BEEF00709EC3 /* GoogleService-Info.plist */,
 			);
 			path = SickAppMaaan;
 			sourceTree = "<group>";
@@ -78,6 +97,14 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		D648E47606DD935C2636BC01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				407EAF1CCF3658E61324CA06 /* Pods_SickAppMaaan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91E2DF381E64B5450065BFD1 /* Build configuration list for PBXNativeTarget "SickAppMaaan" */;
 			buildPhases = (
+				3410DF78FA25A967DC0F8A9F /* [CP] Check Pods Manifest.lock */,
 				91E2DF221E64B5450065BFD1 /* Sources */,
 				91E2DF231E64B5450065BFD1 /* Frameworks */,
 				91E2DF241E64B5450065BFD1 /* Resources */,
+				3F520874E84BB37EC69D7748 /* [CP] Embed Pods Frameworks */,
+				CEBC457FD3D0F77F70B12ED2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,12 +169,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E2DF341E64B5450065BFD1 /* LaunchScreen.storyboard in Resources */,
+				919C67891E69BEEF00709EC3 /* GoogleService-Info.plist in Resources */,
 				91E2DF311E64B5450065BFD1 /* Assets.xcassets in Resources */,
 				91E2DF2F1E64B5450065BFD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3410DF78FA25A967DC0F8A9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F520874E84BB37EC69D7748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SickAppMaaan/Pods-SickAppMaaan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBC457FD3D0F77F70B12ED2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SickAppMaaan/Pods-SickAppMaaan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91E2DF221E64B5450065BFD1 /* Sources */ = {
@@ -273,6 +352,7 @@
 		};
 		91E2DF391E64B5450065BFD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9785C4815A34E315D1A34990 /* Pods-SickAppMaaan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q8823V5Q2V;
@@ -286,6 +366,7 @@
 		};
 		91E2DF3A1E64B5450065BFD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6620C756924AF41ED65A7625 /* Pods-SickAppMaaan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q8823V5Q2V;
@@ -316,6 +397,7 @@
 				91E2DF3A1E64B5450065BFD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
